@@ -425,6 +425,95 @@ This creates a **self-improving transport intelligence system** that adapts to r
 - User session integration  
 - Clustering mechanism  
 - Learning & prediction implementation
+## ✨ Key Features Preview
 
-  <img width="1895" height="982" alt="Screenshot 2026-05-03 173644" src="https://github.com/user-attachments/assets/a8fe42d8-7fa0-4e7c-a455-259ef3d14cc8" />
+## 📸 Prototype Preview
 
+### 🏠 Home Experience
+Know when your bus actually arrives with real-time updates.
+
+![Home](./assets/home.png)
+
+---
+
+### 🗺️ Live Bus Tracking
+
+#### Result On Searching Bus 
+Buses with essential details like real-time ETA , delay alerts, and occupancy insights 
+
+![Results](./assets/SearchResult.png)
+
+### 📊 Bus Details with Start My Journey Button
+View Bus Details and Bus Route on the map also onclicking Start My journey --> Gives User Signal. 
+
+![Quick Tracking](./assets/SearchedBusDetail_StartMyJourney.png)
+
+#### Quick Access Tracking (Frequent Buses)
+Users can instantly track frequently used buses directly from their profile.
+
+![Route Tracking](./assets/FrequentBusesMap.png)
+---
+
+### 👥 Crowd Intelligence System
+Passengers contribute crowd data to improve prediction accuracy.
+
+![Crowd Input](./assets/CrowdInput.png)
+
+---
+
+### 🚨 Emergency & Incident Alerts
+Report and view real-time incidents affecting bus routes.
+
+![Alert System](./assets/AlertSystem.png)
+
+![Alert Notification](./assets/AlertNotification.png)
+
+---
+
+### 🏆 User Engagement & Impact
+Encouraging sustainable commuting through CO₂ tracking and leaderboard.
+
+![Leaderboard](./assets/leaderboard.png)
+## 🧠 Technical Direction
+
+The system is being designed as a real-time, event-driven engine:
+
+- Signal processing every few seconds  
+- Multi-source validation (driver + users)  
+- Confidence-based decision making  
+- Time-bucket learning for predictions  
+
+Planned stack:
+- Frontend: JavaScript  
+- Backend: Node.js (planned)  
+- Data handling: Real-time + historical aggregation
+  
+## 🎯 Future Scope
+
+- Full implementation of validation engine  
+- Real-time ETA prediction using learned data  
+- Mobile app integration  
+- City-scale deployment  
+- Integration with public transport systems
+
+  ## 📌 Why This Project?
+
+Most public transport tracking systems rely heavily on GPS, which can be unreliable or inconsistent.
+
+This project explores a different approach—leveraging real commuter movement and behavior to improve accuracy.
+
+The goal is to build a system that adapts to real-world conditions instead of relying only on fixed infrastructure.
+
+## 👤 Author
+
+Harsh
+
+## ⭐ Feedback & Support
+
+If you found this project interesting, feel free to:
+- ⭐ Star the repository  
+- Share feedback or suggestions
+
+  ## 📜 License
+
+This project is licensed under the MIT License.
